@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="foodweb.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="input" placeholder="search here ...">
+
+                <img class="slogo" src="magnifying-glass-solid.svg" alt="">
+            </div>
+            <div class="icon1">
+                <div class="icon3">
+
+
+                </div>
+                <div class="icon2">
+
+
+                </div>
+                <div class="icon">
+
+
+                </div>
+
+
+            </div>
+        </nav>
+        <!-- main page -->
+
+        <div class="main">
+            <div class="text">
+                <div class="foodname">
+                    <h1>simple & Tasty Recipes</h1>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum est ea unde deleniti labore minus
+                    aperiam laudantium necessitatibus.</p>
+                <div class="dropdown">
+                    <button  class="dropbtn" onclick="toggleMenu()">Explore Mor</button>
+                    
+                </div>
+            </div>
+            <img src="img/food-main1.png" alt="">
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Ore <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="img/food1.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                                <button><a href="foodwebform/form.html">Order Now</a></button>
+                           
+                        </div>
+                        <div class="card">
+                            <img src="img/food2.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <div class="orderfom">
+                                <button onclick="ordernow()" class="ordernow"><a href="foodwebform/form.html">Order Now</a></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/food3.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <div class="orderfom">
+                                <button onclick="ordernow()" class="ordernow"><a href="foodwebform/form.html">Order Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="img/food4.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <div class="orderfom">
+                                <button onclick="ordernow()" class="ordernow"><a href="foodwebform/form.html">Order Now</a></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/food11.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <button onclick="ordernow()" class="ordernow"><a href="foodwebform/form.html">Order Now</a></button>
+
+                        </div>
+                        <div class="card">
+                            <img src="img/food7.jpg" alt="">
+                            <h1>299 Rupees</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <div class="orderfom">
+                                <button onclick="ordernow()" class="ordernow"><a href="foodwebform/form.html">Order Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>our <span>bloge</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="img/blog2.jpg" alt="">
+                            <h2>Fact about indian Food</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <a href="https://www.tasteatlas.com/50-most-popular-foods-in-india">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="img/blog3.jpg" alt="">
+                            <h2>Diffrent type of burger</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <a href="https://www.tasteatlas.com/50-most-popular-foods-in-india">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="img/blog1.jpg" alt="">
+                            <h2> Delicious checken Recipes</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos non animi numquam
+                                offici.</p>
+                            <a href="https://www.swiggy.com/city/chandigarh">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- customer review -->
+        <div class="review">
+            <div class="customer">
+                <img src="img/review1.jpg" alt="">
+                <div class="starbox">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-half-empty-96.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ducimus explicabo nemo vitae
+                    necessitatibus quo!</p>
+            </div>
+            <div class="customer">
+                <img src="img/review2.jpg" alt="">
+                <div class="starbox">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-half-empty-96.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ducimus explicabo nemo vitae
+                    necessitatibus quo!</p>
+            </div>
+            <div class="customer">
+                <img src="img/review3.jpg" alt="">
+                <div class="starbox">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-96.png" alt="">
+                    <img class="star" src="img/icons8-star-half-empty-96.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ducimus explicabo nemo vitae
+                    necessitatibus quo!</p>
+            </div>
+
+        </div>
+        <div class="btn">
+            <button>Prev</button>
+            <button>Next</button>
+        </div>
+
+        <div class="fppter">
+            <div class="txt1">
+                <h2>About US</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, adipisci!</p>
+                <p>Servic</p>
+                <p>customer</p>
+                <p>Foods</p>
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Servic</p>
+                <p>customer</p>
+                <p>Foods</p>
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>near</p>
+                <p>Servic</p>
+                <p>customer</p>
+                <p>Foods</p>
+            </div>
+
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Food website</p>
+                <p>Servic</p>
+                <p>customer</p>
+                <p>Foods</p>
+            </div>
+        </div>
+    </div>
+    <script src="foodweb.js"></script>
+</body>
+
+</html>
